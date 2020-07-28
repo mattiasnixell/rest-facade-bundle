@@ -1,0 +1,21 @@
+{
+  "name": "rest-facade-bundle",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "build-with-externals": "cross-env WITH_EXTERNALS=1 webpack"
+  },
+  "dependencies": {
+    "rest-facade": "^1.13.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "terser-webpack-plugin": "^3.0.8",
+    "webpack": "^4.44.0",
+    "webpack-bundle-analyzer": "^3.8.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
